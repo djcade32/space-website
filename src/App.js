@@ -3,7 +3,7 @@ import Home from "./pages/Home/Home";
 
 function App() {
   return (
-    <div className="App" style={{ padding: "2rem" }}>
+    <div className="App">
       <Navbar />
       <Home />
     </div>
