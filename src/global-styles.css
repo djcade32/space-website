@@ -1,0 +1,26 @@
+:root {
+  /* Colors */
+
+  --main-bg-color: hsl(230 35% 7%);
+  --light-blue: hsl(231, 77%, 90%);
+  --tan: hsl(0, 0%, 100%);
+
+  /* Typography */
+
+  --Bellefair: "Bellefair";
+  --Barlow: "Barlow Condensed";
+
+  --font-weight-regular: 400;
+
+  --font-size-heading-1: 9.375rem;
+  --font-size-heading-2: 6.25rem;
+  --font-size-heading-3: 3.5rem;
+  --font-size-heading-4: 2rem;
+  --font-size-heading-5: 1.75rem;
+  --font-size-subheading: 0.875rem;
+  --nav-text: 1rem;
+
+  --character-space-heading: 4.75ch;
+  --character-space-subheading: 2.35ch;
+  --character-space-nav-text: 2.7ch;
+}
