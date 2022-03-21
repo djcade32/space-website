@@ -1,0 +1,10 @@
+.exploreButtonContainer {
+  background-color: white;
+  border: none;
+  outline: none;
+  width: 10rem;
+  height: 10rem;
+  font-family: var(--bellefair);
+  font-size: 1.25rem;
+  border-radius: 50%;
+}

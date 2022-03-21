@@ -2,4 +2,40 @@
   background-image: url("../../assets/home/background-home-mobile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
+  padding-top: 10rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homeTextContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1.5rem;
+}
+
+.homeSubtitle {
+  color: var(--light-purple);
+  font-family: var(--barlow-condensed);
+  font-size: var(--font-size-nav-text);
+  letter-spacing: var(--character-space-nav-text);
+}
+
+.homeTitle {
+  color: white;
+  font-family: var(--bellefair);
+  font-size: 5rem;
+}
+
+.homeParagraph {
+  color: var(--light-purple);
+  font-family: var(--barlow);
+  font-size: var(--nav-text);
+  line-height: 25px;
+  text-align: center;
+  margin-bottom: 5rem;
 }
