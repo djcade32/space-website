@@ -1,0 +1,61 @@
+.technologyContainer {
+  background-image: url("../../assets/technology/background-technology-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+  padding-top: 6.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.technologyNumber {
+  font-family: var(--barlow-condensed);
+  font-size: var(--nav-text);
+  letter-spacing: 2.7px;
+  color: #3d3d3d;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.technologySubtitle {
+  font-family: var(--barlow-condensed);
+  font-size: var(--nav-text);
+  letter-spacing: 2.7px;
+  color: white;
+}
+
+.technologyImg {
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+}
+
+.technologyTextContainer {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1rem;
+}
+
+.technologyCommonTitle {
+  font-family: var(--barlow-condensed);
+  font-size: var(--font-size-subheading);
+  color: var(--light-purple);
+  letter-spacing: var(--character-space-subheading);
+}
+
+.technologyTitle {
+  font-family: var(--bellefair);
+  font-size: var(--font-size-heading-5);
+  color: white;
+}
+
+.technologyParagraph {
+  font-family: var(--barlow);
+  font-size: var(--nav-text);
+  color: var(--light-purple);
+  line-height: 25px;
+  text-align: center;
+}

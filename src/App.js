@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Home from "./pages/Home/Home";
 import Destination from "./pages/Destination/Destination";
 import Crew from "./pages/Crew/Crew";
+import Technology from "./pages/Technology/Technology";
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       <Navbar />
       {/* <Home /> */}
       {/* <Destination /> */}
-      <Crew />
+      {/* <Crew /> */}
+      <Technology />
     </div>
   );
 }
