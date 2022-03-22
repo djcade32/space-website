@@ -1,0 +1,72 @@
+.crewContainer {
+  background-image: url("../../assets/crew/background-crew-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding-top: 6.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.crewNumber {
+  font-family: var(--barlow-condensed);
+  font-size: var(--nav-text);
+  letter-spacing: 2.7px;
+  color: #818181;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.crewSubtitle {
+  font-family: var(--barlow-condensed);
+  font-size: var(--nav-text);
+  letter-spacing: 2.7px;
+  color: white;
+  margin-bottom: 2.5rem;
+}
+
+.crewImg {
+  width: 50%;
+  height: 223px;
+  position: relative;
+  aspect-ratio: 2 / 3;
+}
+
+hr {
+  width: 98%;
+  border-color: #3d3d3d;
+  margin-top: 0;
+}
+
+.crewText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  row-gap: 1rem;
+}
+
+.crewRole {
+  color: #818181;
+  font-family: var(--bellefair);
+  font-size: var(--nav-text);
+  text-transform: uppercase;
+}
+
+.crewName {
+  color: white;
+  font-family: var(--bellefair);
+  font-size: var(--font-size-heading-5);
+  text-transform: uppercase;
+}
+
+.crewBio {
+  color: var(--light-purple);
+  font-family: var(--barlow);
+  font-size: var(--nav-text);
+  line-height: 25px;
+  text-align: center;
+}

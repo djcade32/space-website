@@ -45,7 +45,7 @@ function Destination() {
         src={require("../../assets/destination/image-" +
           currentPlanet.name +
           ".png")}
-        alt="The moon"
+        alt={"The " + currentPlanet.name}
       />
       <PlanetNavbar handleClick={handleClick} />
       <p className={styles.planetTitle}>
