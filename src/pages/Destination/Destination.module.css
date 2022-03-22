@@ -4,6 +4,8 @@
   background-size: cover;
   height: 100vh;
   padding-top: 6.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,4 +25,53 @@
   font-size: var(--nav-text);
   letter-spacing: 2.7px;
   color: white;
+}
+
+.planetImg {
+  width: 45%;
+  margin-top: 2rem;
+}
+
+.planetTitle {
+  color: white;
+  font-family: var(--bellefair);
+  font-size: var(--font-size-heading-3);
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.planetDescription {
+  color: var(--light-purple);
+  font-family: var(--barlow);
+  font-size: var(--nav-text);
+  line-height: 25px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.lineBreak {
+  border-color: #3d3d3d;
+  width: 98%;
+}
+
+.statTitle {
+  color: var(--light-purple);
+  font-family: var(--barlow-condensed);
+  font-size: var(--font-size-subheading);
+  letter-spacing: var(--character-space-subheading);
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.stat {
+  color: white;
+  font-family: var(--bellefair);
+  font-size: var(--font-size-heading-5);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.distanceStat {
+  margin-bottom: 1.5rem;
 }
