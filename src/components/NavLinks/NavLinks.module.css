@@ -1,0 +1,16 @@
+.navLinksContainer {
+  padding: 1.5rem;
+}
+
+.navLinksButton {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-family: var(--barlow-condensed);
+  font-size: var(--nav-text);
+  letter-spacing: var(--character-space-nav-text);
+}
+span {
+  font-weight: bold;
+}

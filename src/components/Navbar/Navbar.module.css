@@ -6,3 +6,19 @@
   width: 100%;
   padding: 1.5rem;
 }
+
+.hamburgerMenuButton {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.closeMenuButton {
+  position: relative;
+  left: 50px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-top: 2rem;
+  width: 10%;
+  align-self: center;
+}
