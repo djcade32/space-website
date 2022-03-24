@@ -1,10 +1,33 @@
-import React from "react";
+import React, { useState } from "react";
 import PaginationBar from "../../components/PaginationBar/PaginationBar";
 import styles from "./Technology.module.css";
+import data from "../../data/data.json";
+
+const LAUNCH_VEHICLE = { name: "moon", index: 0 };
+const SPACEPORT = { name: "mars", index: 1 };
+const SPACE_CAPSULE = { name: "europa", index: 2 };
 
 function Technology() {
+  const [currentTech, setCurrentTech] = useState(LAUNCH_VEHICLE);
+
   function handleClick(e) {
-    console.log(e);
+    switch (e.target.innerText) {
+      case "1":
+        setCurrentTech(LAUNCH_VEHICLE);
+        break;
+
+      case "2":
+        setCurrentTech(SPACEPORT);
+        break;
+
+      case "3":
+        setCurrentTech(SPACE_CAPSULE);
+        break;
+
+      default:
+        console.log("Error with switching technology page.");
+        break;
+    }
   }
   return (
     <div className={styles.technologyContainer}>
@@ -19,13 +42,11 @@ function Technology() {
       <PaginationBar handleClick={handleClick} />
       <div className={styles.technologyTextContainer}>
         <p className={styles.technologyCommonTitle}>THE TERMINOLOGY ...</p>
-        <p className={styles.technologyTitle}>LAUNCH VEHICLE</p>
+        <p className={styles.technologyTitle}>
+          {data.technology[currentTech.index].name}
+        </p>
         <p className={styles.technologyParagraph}>
-          A launch vehicle or carrier rocket is a rocket-propelled vehicle used
-          to carry a payload from Earth's surface to space, usually to Earth
-          orbit or beyond. Our WEB-X carrier rocket is the most powerful in
-          operation. Standing 150 metres tall, it's quite an awe-inspiring sight
-          on the launch.
+          {data.technology[currentTech.index].description}
         </p>
       </div>
     </div>
