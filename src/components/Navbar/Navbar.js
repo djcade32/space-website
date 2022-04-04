@@ -5,6 +5,7 @@ import hamburgerMenu from "../../assets/shared/icon-hamburger.svg";
 import closeMenuIcon from "../../assets/shared/icon-close.svg";
 import SideDrawer from "../SideDrawer/SideDrawer";
 import NavLinks from "../NavLinks/NavLinks";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [drawerIsOpen, setDrawerIsOpen] = useState(false);
@@ -18,7 +19,9 @@ function Navbar() {
   }
   return (
     <div className={styles.navbarContainer}>
-      <img src={logo} alt="logo" />
+      <Link to="/">
+        <img src={logo} alt="logo" />
+      </Link>
       <button
         className={styles.hamburgerMenuButton}
         onClick={openDrawerHandler}

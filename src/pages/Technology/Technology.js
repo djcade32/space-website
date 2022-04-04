@@ -3,9 +3,9 @@ import PaginationBar from "../../components/PaginationBar/PaginationBar";
 import styles from "./Technology.module.css";
 import data from "../../data/data.json";
 
-const LAUNCH_VEHICLE = { name: "moon", index: 0 };
-const SPACEPORT = { name: "mars", index: 1 };
-const SPACE_CAPSULE = { name: "europa", index: 2 };
+const LAUNCH_VEHICLE = { name: "launch-vehicle", index: 0 };
+const SPACEPORT = { name: "spaceport", index: 1 };
+const SPACE_CAPSULE = { name: "space-capsule", index: 2 };
 
 function Technology() {
   const [currentTech, setCurrentTech] = useState(LAUNCH_VEHICLE);
@@ -36,7 +36,9 @@ function Technology() {
       </p>
       <img
         className={styles.technologyImg}
-        src={require("../../assets/technology/image-launch-vehicle-landscape.jpg")}
+        src={require("../../assets/technology/image-" +
+          currentTech.name +
+          "-landscape.jpg")}
         alt={"The "}
       />
       <PaginationBar handleClick={handleClick} />

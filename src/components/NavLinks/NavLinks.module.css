@@ -1,5 +1,21 @@
 .navLinksContainer {
-  padding: 1.5rem;
+  padding-left: 2.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-right: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.navLinksNumbers {
+  letter-spacing: var(--character-space-nav-text);
+}
+
+.navLinksButtonActive {
+  border-right: 4px solid white;
+  padding: 0.25rem;
+  width: 71%;
 }
 
 .navLinksButton {
@@ -11,6 +27,7 @@
   font-size: var(--nav-text);
   letter-spacing: var(--character-space-nav-text);
 }
+
 span {
   font-weight: bold;
 }
